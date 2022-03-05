@@ -1,0 +1,19 @@
+.nav-link:hover{
+    color:#1ABC9C !important;
+}
+.active{
+    background-color:#1ABC9C !important;
+    border-radius: 5px;
+    color: white !important;
+} 
+.active:hover{
+    color:white !important;
+}
+
+.navbar{
+    background-color: #2C3E50 !important;
+    transition: 300ms;
+}
+footer{
+    background-color:#2C3E50;
+}

@@ -1,0 +1,35 @@
+.fady{
+    position: relative;
+    
+}
+
+.fady::before{
+    content:"";
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 40%;
+    right: 120%;
+    border-radius: 10px;
+  
+}
+.fady::after{
+    content:"";
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 40%;
+    left: 120%;
+    border-radius: 10px;
+  
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: start;
+}
+.about{
+background-color: #1ABC9C;
+}
